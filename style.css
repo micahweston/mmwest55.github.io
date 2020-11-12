@@ -35,7 +35,8 @@
     font-size: large;
     color: white;
     margin-left: 15px;
-    margin-right: 15px;  
+    margin-right: 15px; 
+    
 }
 
 .description-container {
@@ -44,8 +45,9 @@
     margin-bottom: 30px;
 }
 
-.description-name {
-    text-align: center;
+.experience {
+    width: 25%;
+    background-color: white;
 }
 
 .portfolio-card {
