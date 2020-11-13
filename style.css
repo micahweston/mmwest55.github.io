@@ -87,6 +87,6 @@ main {
 }
 
 h1 {
-    font-family: fantasy;
+    font-family: fantasy, Times, sans-serif;
     font-size: 250%;
 }
