@@ -37,7 +37,7 @@
                             <a class="nav-link" href="#about_me">About Me</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                            <a class="nav-link" href="#portfolio-container">Portfolio</a>
                         </li>
                     </ul>
                 </div>
@@ -45,11 +45,11 @@
         </header>
 
         <section>
-            <div class="landing-container">
-                <div class="landing-picture">
+            <div id="landing-container">
+                <div id="landing-picture">
                 </div>
 
-                <div class="landing-name-job">
+                <div id="landing-name-job">
                     <h1>Micah Weston</h1> 
                     <h4>Software Engineer/Front End Developer</h4>
                 </div>
@@ -63,8 +63,8 @@
         </section>
 
         <section>
-            <div class="description-container">
-                <div class="description" id="about_me">
+            <div id="description-container">
+                <div id="about_me">
                     <p>
                         I am a software engineer based out of San Antonio. I am a recent graduate from Southern New Hampshire 
                         University, with a B.S. in Computer Science with a concentration in Software Engineering. With 10 years 
@@ -72,7 +72,7 @@
                         While working hard to achieve your goals with a focus on your business needs.
                     </p> 
                 </div>
-                <div class="experience">
+                <div id="experience">
                     <h4>Skills</h4>
                     <ul>
                         <li>HTML/CSS</li>
@@ -84,9 +84,9 @@
                 </div>
             </div>
         </section>
-
+        <!--Need to add portfolio cards of projects in both Web Dev and Python-->
         <section>
-            <div class="portfolio-container" id="portfolio">
+            <div id="portfolio-container">
                 <div class="portfolio-card"></div> 
                 <div class="portfolio-card"></div>
                 <div class="portfolio-card"></div>
@@ -94,6 +94,7 @@
             </div>
         </section>
     </main>
+    <!--Footer contains contact me Navbar with links to email, and Linkedin.-->
     <footer id="contact_me">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand">Contact Me</a>
@@ -101,11 +102,13 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
               <div class="navbar-nav">
                 <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
                 <a class="nav-link" onclick="window.open('http://www.linkedin.com/in/micah-weston', '_blank'); return false;">Linkedin</a>
                 <a class="nav-link" href="mailto:micah.weston@gmail.com">Email Me</a>
               </div>
+
             </div>
           </nav>
     </footer>
