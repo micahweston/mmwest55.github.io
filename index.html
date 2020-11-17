@@ -17,7 +17,7 @@
         crossorigin="anonymous"></script>
     
     </head>
-    <main>
+    <body>
         <header>
             <!--This is our Nav bar for portfolio-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -43,73 +43,75 @@
                 </div>
             </nav>
         </header>
-        <!--Landing content, contains picture, background, and title-->
-        <section>
-            <div id="landing-container">
-                <div id="landing-picture">
+        <main>
+            <!--Landing content, contains picture, background, and title-->
+            <section>
+                <div id="landing-container">
+                    <div id="landing-picture">
+                    </div>
+
+                    <div id="landing-name-job">
+                        <h1>Micah Weston</h1> 
+                        <h4>Software Engineer/Front End Developer</h4>
+                    </div>
+
+                    <div class="landing-buttons">
+                        <button type="button" class="btn btn-outline-light" onclick="location.href='#contact_me'">Contact Me</button>
+                        <button type="button" class="btn btn-outline-light" onclick="window.open('https://github.com/mmwest55/mmwest55.github.io', '_blank'); return false;">Github</button>                
+                    </div>
+
+                </div>
+            </section>
+            <!--This section is for the about me portion of webtsite.-->
+            <section>
+                <div id="description-container">
+                    <div id="about_me"> <!--Id linked to Navbar at head-->
+                        <p>
+                            I am a software engineer based out of San Antonio. I am a recent graduate from Southern New Hampshire 
+                            University, with a B.S. in Computer Science with a concentration in Software Engineering. With 10 years 
+                            of experience in leadership, I can bring a unique experience to any project I work on. 
+                            While working hard to achieve your goals with a focus on your business needs.
+                        </p> 
+                    </div>
+                    <div id="experience">
+                        <h4>Skills</h4>
+                        <ul>
+                            <li>HTML/CSS</li>
+                            <li>Javascript</li>
+                            <li>Bootstrap</li>
+                            <li>Python</li>
+                            <li>SQL</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!--Need to add portfolio cards of projects in both Web Dev and Python-->
+            <section>
+                <div id="portfolio-container"> <!--Portfolio linked to Navbar in head.-->
+                    <div class="portfolio-card"></div> 
+                    <div class="portfolio-card"></div>
+                    <div class="portfolio-card"></div>
+                    <div class="portfolio-card"></div>   
+                </div>
+            </section>
+        </main>
+        <!--Footer contains contact me Navbar with links to email, and Linkedin.-->
+        <footer id="contact_me">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand">Contact Me</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" onclick="window.open('http://www.linkedin.com/in/micah-weston', '_blank'); return false;">Linkedin</a>
+                    <a class="nav-link" href="mailto:micah.weston@gmail.com">Email Me</a>
                 </div>
 
-                <div id="landing-name-job">
-                    <h1>Micah Weston</h1> 
-                    <h4>Software Engineer/Front End Developer</h4>
                 </div>
-
-                <div class="landing-buttons">
-                    <button type="button" class="btn btn-outline-light" onclick="location.href='#contact_me'">Contact Me</button>
-                    <button type="button" class="btn btn-outline-light" onclick="window.open('https://github.com/mmwest55/mmwest55.github.io', '_blank'); return false;">Github</button>                
-                </div>
-
-            </div>
-        </section>
-        <!--This section is for the about me portion of webtsite.-->
-        <section>
-            <div id="description-container">
-                <div id="about_me"> <!--Id linked to Navbar at head-->
-                    <p>
-                        I am a software engineer based out of San Antonio. I am a recent graduate from Southern New Hampshire 
-                        University, with a B.S. in Computer Science with a concentration in Software Engineering. With 10 years 
-                        of experience in leadership, I can bring a unique experience to any project I work on. 
-                        While working hard to achieve your goals with a focus on your business needs.
-                    </p> 
-                </div>
-                <div id="experience">
-                    <h4>Skills</h4>
-                    <ul>
-                        <li>HTML/CSS</li>
-                        <li>Javascript</li>
-                        <li>Bootstrap</li>
-                        <li>Python</li>
-                        <li>SQL</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-        <!--Need to add portfolio cards of projects in both Web Dev and Python-->
-        <section>
-            <div id="portfolio-container"> <!--Portfolio linked to Navbar in head.-->
-                <div class="portfolio-card"></div> 
-                <div class="portfolio-card"></div>
-                <div class="portfolio-card"></div>
-                <div class="portfolio-card"></div>   
-            </div>
-        </section>
-    </main>
-    <!--Footer contains contact me Navbar with links to email, and Linkedin.-->
-    <footer id="contact_me">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand">Contact Me</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-
-              <div class="navbar-nav">
-                <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-link" onclick="window.open('http://www.linkedin.com/in/micah-weston', '_blank'); return false;">Linkedin</a>
-                <a class="nav-link" href="mailto:micah.weston@gmail.com">Email Me</a>
-              </div>
-
-            </div>
-          </nav>
-    </footer>
+            </nav>
+        </footer>
+    </body>
 </html>
