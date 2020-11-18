@@ -85,6 +85,7 @@
 #code_review {
     display: flex;
     justify-content: center;
+    background-color: rgb(23, 82, 100);
 }
 
 main {
