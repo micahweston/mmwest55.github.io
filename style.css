@@ -82,6 +82,11 @@
     background-size: cover;
 }
 
+#code_review {
+    display: flex;
+    justify-content: center;
+}
+
 main {
     background-color: black;
     position: relative;
