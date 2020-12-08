@@ -30,17 +30,6 @@
     color: white;
 }
 
-#about_me {
-    text-align: center;
-    font-size: large;
-    color: white;
-    padding: 25px;
-    float: left;
-    width: 75%;
-    height: 50%;
-    text-align: center;
-}
-
 #description-container {
     background-color: rgb(23, 82, 100);
     padding: 10px;
@@ -49,6 +38,17 @@
     justify-content: space-around;
     flex-wrap: wrap;
     align-items: center;
+}
+
+#about_me {
+    text-align: center;
+    font-size: large;
+    color: white;
+    margin: 0 auto;
+    float: left;
+    width: 75%;
+    height: 50%;
+    text-align: center;
 }
 
 #experience {
