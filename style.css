@@ -121,8 +121,7 @@
    justify-content: center;
    align-items: center;
    background-color: rgb(23, 82, 100);
-   padding-bottom: 20px;
-   padding-top: 2px;
+   padding: 30px;
 }
 
 #code_review {
@@ -132,7 +131,9 @@
     height: 100%;
     justify-content: center;
     display: flex;
-    margin: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 main {
@@ -154,5 +155,6 @@ header {
 
 footer {
     z-index: 5;
+    width: 100%;
     margin-top: 20px;
 }
