@@ -139,3 +139,7 @@ footer {
     width: 100%;
     margin-top: 20px;
 }
+
+video {
+    outline: none;
+}
