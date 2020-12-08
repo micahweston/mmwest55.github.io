@@ -64,7 +64,6 @@
 
 .portfolio-container {
     display: flex;
-    overflow: hidden;
     align-items: center;
     background-color: aqua;
     background-image: url(images/IMG_1649.JPEG);
@@ -72,8 +71,9 @@
     background-position: center;
     background-size: cover;
     justify-content: center;
-    overflow: hidden;
-    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .portfolio-container .portfolio-card {
@@ -87,32 +87,13 @@
     margin: 20px;
 }
 
-.portfolio-container .overlay-content{
-    width: 100%;
-    height: 100%;
-    background-color: transparent;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    z-index: 1;
-    transition: 0.5s;
-}
-
-.portfolio-container .overlay-content p {
+.portfolio-container p {
     text-align: center;
-    font-size: 3rem;
-    margin: 2rem;
+    font-size: 2rem;
     letter-spacing: 1px;
-    line-height: 1.75rem;
-}
-
-.portfolio-container:hover .overlay-content {
-    transform: translateY(-100%);
+    line-height: 2rem;
+    display: flex;
+    margin-bottom: 20px;
 }
 
 #code-container {
