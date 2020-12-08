@@ -62,30 +62,77 @@
     border: 6px solid white;    
 }
 
-.portfolio-card {
-    width: 1200px;
-    height: 500px;
-    border: 1px solid black;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-#portfolio-container {
+.portfolio-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    overflow: hidden;
+    align-items: center;
     background-color: aqua;
     background-image: url(images/IMG_1649.JPEG);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.portfolio-container .portfolio-card {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    margin: 20px;
+}
+
+.portfolio-container .overlay-content{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.portfolio-container .overlay-content p {
+    text-align: center;
+    font-size: 3rem;
+    margin: 2rem;
+    letter-spacing: 1px;
+    line-height: 1.75rem;
+}
+
+.portfolio-container:hover .overlay-content {
+    transform: translateY(-100%);
+}
+
+#code-container {
+   overflow: hidden; 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(23, 82, 100);
+   padding-bottom: 20px;
+   padding-top: 2px;
 }
 
 #code_review {
-    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     justify-content: center;
-    background-color: rgb(23, 82, 100);
+    display: flex;
+    margin: 20px;
 }
 
 main {
@@ -103,4 +150,9 @@ header {
     position: fixed;
     width: 100%;
     z-index: 5;
+}
+
+footer {
+    z-index: 5;
+    margin-top: 20px;
 }
