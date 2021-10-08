@@ -84,3 +84,9 @@ body {
   #title {
     animation: 1s ease-out 0s 1 slideInFromLeft;
   }
+
+  @media (max-width: 992px) {
+    .nav-link {
+      border-bottom: none;
+    }
+  }

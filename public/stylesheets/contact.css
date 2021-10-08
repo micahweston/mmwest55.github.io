@@ -56,3 +56,9 @@ body {
     color: #A60303;
     text-decoration: #A60303;
   }
+
+  @media (max-width: 992px) {
+    .nav-link {
+      border-bottom: none;
+    }
+  }
