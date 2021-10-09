@@ -60,5 +60,17 @@ body {
   @media (max-width: 991px) {
     .nav-link {
       border-bottom: none;
+      margin: 0rem;
+    }
+
+    .navbar-brand {
+      padding: 0rem;
+      margin: 0rem;
+      text-align: start;
+    }
+
+    #navbar-icon {
+      margin: 0rem;
+      padding: 0rem;
     }
   }
