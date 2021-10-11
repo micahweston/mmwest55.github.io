@@ -104,3 +104,9 @@ body {
       padding: 0rem;
     }
   }
+
+  @media (max-width: 400px) {
+    #brand-span {
+      display: none;
+    }
+  }
