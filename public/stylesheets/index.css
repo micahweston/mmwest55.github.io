@@ -87,7 +87,7 @@ body {
     animation: 1s ease-out 0s 1 slideInFromLeft;
   }
 
-  @media (max-width: 991px) {
+  @media (max-width: 60em) {
     .nav-link {
       border-bottom: none;
       margin: 0rem;
@@ -105,8 +105,10 @@ body {
     }
   }
 
-  @media (max-width: 400px) {
+  @media (max-width: 25em) {
     #brand-span {
       display: none;
     }
+
+    
   }
